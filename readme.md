@@ -6,11 +6,13 @@ This repository contains a **unit testing demo** in **Java** using **JUnit 5**. 
 
 ```
 src/
-└── test/
+└── main/
     └── java/
-        └── com/
-            └── appstest/
-                └── CalculatorTest.java
+        └── com.appstest/
+                └── Calculator.java
+test/
+└── com.apptest/
+    └── CalculatorTest.java
 ```
 
 > The tested `Calculator.java` class must implement methods like `integerAdd`, `integerSubtraction`, `integerMultiply`, and `integerDivide`.
